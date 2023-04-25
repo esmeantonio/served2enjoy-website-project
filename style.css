@@ -1,0 +1,101 @@
+p {
+	font-family: monospace;
+	font-size: 25px;
+	color: black;
+	background-color: white;
+	padding: 150px;
+	text-align: center;
+}
+
+.one {
+	font-family: monospace;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	padding: 150px;
+	text-align: center;
+}
+
+
+img {
+	width: 660px;
+	margin: 10px;
+}
+
+.log {
+	width: 600px;
+	margin: 10px;
+	height:400;
+	position:center;
+	top:0;
+	align-content:center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 54px;
+	color: gray;
+	background-color: beige;
+}
+
+h2 {
+	font-family: fantasy;
+	font-size: 65px;
+	color: black;
+	background-color: beige;
+}
+
+body {
+	background: beige;
+	padding: 64px;
+	text-align: center;
+}
+
+
+.button1 {
+	background-color: #d9bb59;
+	border:none;
+	color: white;
+	padding: 30px 66px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	margin-right: 100px;
+}
+
+.button2 {
+	background-color: #d9bb59;
+	border:none;
+	color: white;
+	padding: 30px 66px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	margin-left: 100px;
+}
+
+.gallery{
+	display: grid;
+	grid-template-columns:repeat(3, 2fr);
+	grid-template-rows: repeat(1, 30vw);
+	grid-gap: 10px;
+}
+
+.gallery__img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+table{
+	font-family: monospace;
+	border:none;
+	height: 100%;
+	text-align: center;
+	align-content: center;
+	margin:auto;
+	font-size:18px;
+	table-layout: fixed;
+}
